@@ -41,11 +41,7 @@ public class ClothingItem {
 	}
 	
 	public boolean igual(ClothingItem c) {
-		if(c.getSize()==this.size&&c.getName().equals(this.name)) {
-			return true;
-		}else {
-			return false;
-		}
+        return c.getSize() == this.size && c.getName().equals(this.name);
 	}
 	@Override
 	public String toString() {
