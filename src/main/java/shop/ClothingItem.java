@@ -4,6 +4,7 @@ public class ClothingItem {
 	private String name;
 	private double price;
 	private char size;
+
 	public ClothingItem(String name, double price, char size) {
 		super();
 		this.name = name;
